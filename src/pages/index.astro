@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import {getCafe} from '../app.ts'
 
-const cafe = getCafe() || "none found";
+const cafe = getCafe();
 ---
 
 <Layout title="Welcome to Astro.">
